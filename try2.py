@@ -1,0 +1,8 @@
+try:
+    number = int(input("Enter a number: "))
+    result = 10 / number
+except ValueError:
+    print("Invalid input , Inter a valid number")
+print (f"The result is: {result}.")
+print("Program end")
+print("As a litle python , I am happy")
