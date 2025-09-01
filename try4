@@ -3,6 +3,8 @@ try:
     result = 10 / number
 except ValueError:
     print("Invalid input , Inter a valid number")
+except ZeroDivisionError:
+    print ("You can not devide a number by zero")
 else:
    print (f"The result is: {result}.")
 print("Program end")
